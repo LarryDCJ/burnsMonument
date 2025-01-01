@@ -56,6 +56,24 @@
   font-weight: 600;
 }
 
+.missionStatement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customStatement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ctas {
   display: flex;
   gap: 16px;
@@ -167,8 +185,11 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   .logo {
-    filter: invert();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*filter: invert();*/
   }
 }

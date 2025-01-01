@@ -63,46 +63,26 @@ export default function Home() {
         </a>
       </header>
       <main className={styles.main}>
-        <div>
+        <div className={styles.missionStatement}>
           Our Commitment To Quality Is Always Etched In Stone
         </div>
-        <div>
+
+        <div className={styles.customStatement}>
           We specialize in custom designs
         </div>
+
         <Image
           className={styles.logo}
           src="/burns_logo_banner.JPEG"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          alt="Burns Monument Co. Logo Banner"
+          width={0}
+          height={0}
+          style={{ width: '100%', height: 'auto' }} // optional
         />
- 
-        {/*<div className={styles.ctas}>*/}
-        {/*  <a*/}
-        {/*    className={styles.primary}*/}
-        {/*    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"*/}
-        {/*    target="_blank"*/}
-        {/*    rel="noopener noreferrer"*/}
-        {/*  >*/}
-        {/*    <Image*/}
-        {/*      className={styles.logo}*/}
-        {/*      src="/vercel.svg"*/}
-        {/*      alt="Vercel logomark"*/}
-        {/*      width={20}*/}
-        {/*      height={20}*/}
-        {/*    />*/}
-        {/*    Deploy now*/}
-        {/*  </a>*/}
-        {/*  <a*/}
-        {/*    href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"*/}
-        {/*    target="_blank"*/}
-        {/*    rel="noopener noreferrer"*/}
-        {/*    className={styles.secondary}*/}
-        {/*  >*/}
-        {/*    Read our docs*/}
-        {/*  </a>*/}
-        {/*</div>*/}
+        <div className={styles.address}>
+          1605 South Blake Street Pine Bluff, AR 71603
+        </div>
+
       </main>
       {/* TODO: footer and header should share as much as possible and be represented differently*/}
       <footer className={styles.footer}>
